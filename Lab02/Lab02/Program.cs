@@ -5,7 +5,7 @@ Console.WriteLine("MOD 1");
 Console.WriteLine("MOD 2.1");
 Console.WriteLine("MOD 3");
 Console.WriteLine("MOD 4");
-
+Console.WriteLine("==========================================");
 static double GetAvg(int[] aa)
 {
     double avg = 0;
@@ -16,3 +16,6 @@ static double GetAvg(int[] aa)
 
     return avg / aa.Length;
 }
+int[]nums= {1,2,3,4,5,6};
+double av= GetAvg(nums);
+Console.WriteLine(av);

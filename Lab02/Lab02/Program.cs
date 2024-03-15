@@ -8,13 +8,13 @@ Console.WriteLine("MOD 4");
 Console.WriteLine("==========================================");
 static double GetAvg(int[] aa)
 {
-    double avg3 = 0;
+    double avg = 0;
     for (int i = 0; i < aa.Length; i++)
     {
-        avg3 += aa[i];
+        avg += aa[i];
     }
 
-    return avg3 / aa.Length;
+    return avg / aa.Length;
 }
 int[]nums= {1,2,3,4,5,6};
 double av= GetAvg(nums);
